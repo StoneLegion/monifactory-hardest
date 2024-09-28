@@ -5,6 +5,11 @@
 		condition: "always_active"
 		ftbchunks.max_claimed: 25
 		ftbchunks.max_force_loaded: 0
+		command.sethome: false
+		command.sethome.name: false
+		command.home: false
+		command.home.name: false
+		command.back: false
 	}
 	member: {
 		name: "Member"
@@ -35,6 +40,11 @@
 		ftbranks.name_format: "&a{name}"
 		ftbchunks.max_claimed: 1000
 		ftbchunks.max_force_loaded: 1000
+		command.sethome: true
+		command.sethome.name: true
+		command.home: true
+		command.home.name: true
+		command.back: true
 	}
 	admins: {
 		name: "Admins"
