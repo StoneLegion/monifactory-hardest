@@ -70,31 +70,31 @@
 		# Allows users to access an Anvil GUI without needing an Anvil.
 		anvil: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to access a Crafting Table GUI without needing a Crafting Table.
 		crafting: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to access their ender chest, as well as admins to manage other players' ender chests.
 		enderchest: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to set a custom hat as their head item by using a command
 		hat: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to kick themselves from the server, for example if they are stuck or desynced
 		kickme: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to view leaderboard stats about everyone on the server.
@@ -106,37 +106,37 @@
 		# Allows users to list nearby players, sorted by distance
 		near: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to change their display name, as well as admins to change nicknames for other users
 		nick: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to announce their recording or streaming status to the server by using commands
 		rec: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to access a Smithing Table GUI without needing a Smithing Table.
 		smithing: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to access a Stonecutter GUI without needing a Stonecutter.
 		stonecutter: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Enables usage of a trash can inventory, which can be used to void unneeded items
 		trashcan: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 	}
 	
@@ -148,7 +148,7 @@
 			# You can override this with FTB Ranks using ftbessentials.back.cooldown
 			# Default: 30
 			# Range: 0 ~ 604800
-			cooldown: 30
+			cooldown: 0
 			
 			# Default: true
 			enabled: true
@@ -157,7 +157,7 @@
 			# You can override this with FTB Ranks using ftbessentials.back.max
 			# Default: 10
 			# Range: 0 ~ 2147483647
-			max: 10
+			max: 0
 			
 			# Should be the /back command only be used for returning to the last death point?
 			# Default: false
@@ -185,7 +185,7 @@
 			# You can override this with FTB Ranks using ftbessentials.home.max
 			# Default: 1
 			# Range: 0 ~ 2147483647
-			max: 10
+			max: 0
 			
 			# Warm-up time before /home command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.home.warmup
@@ -220,7 +220,7 @@
 			dimension_whitelist: [ ]
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# /rtp max distance from spawn point
 			# Default: 25000
@@ -251,7 +251,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Warm-up time before /spawn command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.spawn.warmup
@@ -270,7 +270,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Warm-up time before /tpa command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.tpa.warmup
